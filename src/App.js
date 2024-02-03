@@ -7,7 +7,7 @@ export const ThemeContext = createContext(null)
 
 function App() {
   const [countries, setCountries] = useState([])
-  const [theme, setTheme] = useState("")
+  const [theme, setTheme] = useState("light")
 
   const toggleTheme = () =>{
 
